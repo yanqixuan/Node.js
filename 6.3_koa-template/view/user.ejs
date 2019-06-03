@@ -1,0 +1,9 @@
+<%- include('header') %>
+  66666666666
+  <h2>
+    <!-- {{}} {} <%= %> -->
+    <%= user.name %> </h2>
+    <% user.post.forEach((item)=>{ %>
+   <li><a href="/post?id=<%= item.id %>"> <%=  item.id; %>  <%=  item.title; %></a></li>
+    <% }) %>
+<%- include('foot') %>
