@@ -20,7 +20,7 @@
         let scoket = io()
         $('form').submit(function(){
             // 发送一个message方法  发送的值为 val
-            socket.emit('message',$('#message').val());
+            socket.emit('Message',$('#message').val());
             $('#message').val('');
             return false;
         })

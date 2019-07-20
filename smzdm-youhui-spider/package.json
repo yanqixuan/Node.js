@@ -1,5 +1,5 @@
 {
-  "name": "7.19__make-koa",
+  "name": "smzdm-youhui-spider",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "delegates": "^1.0.0",
-    "koa": "^2.7.0"
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0"
   }
 }
